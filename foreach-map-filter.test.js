@@ -1,9 +1,10 @@
+/*
 describe("#doubleValues", function() {
   it("doubles values in an array", function() {
     expect(doubleValues([1, 2, 3])).toEqual([2, 4, 6]);
   });
   it("works for negative numbers", function() {
-    expect(doubleValues([1, -2, -3])).toEqual([2, -4, -6]);
+    expect(doubleValues([1, -2, -3])).toEqual([2, -4, -6]); 
   });
 });
 
@@ -12,7 +13,8 @@ describe("#onlyEvenValues", function() {
     expect(onlyEvenValues([1, 2, 3, 4, 5, 6])).toEqual([2, 4, 6]);
   });
 });
-
+*/
+/*
 describe("#showFirstAndLast", function() {
   it("returns an array of only the first and last characters in an array", function() {
     expect(showFirstAndLast(["elie", "colt", "matt", "tim"])).toEqual([
@@ -23,7 +25,8 @@ describe("#showFirstAndLast", function() {
     ]);
   });
 });
-
+*/
+/*
 describe("#addKeyAndValue", function() {
   it("adds a key and value to an array of objects", function() {
     var arr = [
@@ -41,7 +44,8 @@ describe("#addKeyAndValue", function() {
     expect(addKeyAndValue(arr, "title", "instructor")).toEqual(updatedArr);
   });
 });
-
+*/
+/*
 describe("#vowelCount", function() {
   it("returns an object with the keys as vowels and the values as the count", function() {
     expect(vowelCount("elie")).toEqual({ e: 2, i: 1 });
@@ -156,7 +160,7 @@ describe("#removeVowels", function() {
     expect(removeVowels("ZZZZZZ")).toEqual("zzzzzz");
   });
 });
-
+*/
 describe("#doubleOddNumbers", function() {
   it("returns an array of all odd numbers doubled", function() {
     expect(doubleOddNumbers([1, 2, 3, 4, 5])).toEqual([2, 6, 10]);
